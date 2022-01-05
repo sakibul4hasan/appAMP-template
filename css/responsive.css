@@ -1,0 +1,33 @@
+
+@media ( max-width:1024px ) {
+    .email-form-edit {
+        padding: 11px 10px !important;
+        font-size: 20px !important;
+        width: 296px !important;
+        margin-left: 40px;
+    }
+    .get-app-btn {
+        padding: 12px 22px !important;
+        font-size: 18px !important;
+        font-weight: 500 !important;
+    }
+
+    .p-card {
+        padding: 3.1rem 31px;    
+    }
+    .p-items-list li {
+        font-size: 1.2rem;
+    }
+    .p-subtitle {
+        font-size: 1.2rem;
+    }
+    .p-titale {
+        font-size: 2rem;
+    }
+
+}
+
+
+@media ( max-width: 768px) {
+    
+}

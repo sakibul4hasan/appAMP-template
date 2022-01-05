@@ -1,0 +1,493 @@
+/* <!-- goolge font  --> */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
+/* default system tag  */
+body,h1,h2,h3,h4,h5,p,a,span{
+    font-family:'Work Sans',sans-serif;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar section */
+.navbar-section{
+    width: 100%;
+    position: relative;
+}
+.web-png-edit {
+    width: 46px !important;
+}
+.web-name-title-customize {
+    font-size: 23px !important;
+    font-weight: 600 !important;
+    line-height: 18px !important;
+    letter-spacing: 1.5px !important;
+}
+
+.nav-fixed{ 
+    
+}
+
+.navbar-buynow-button {
+    padding: 0.4rem 1rem !important;
+    font-weight: 700 !important;
+    font-size: 1.3rem !important;
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+/* slider section */
+
+.slider-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.521), rgba(0, 0, 0, 0.521)) ,url(./img/user/mbr-10.jpg) no-repeat center center;;
+    padding: 12.5rem 0 !important;
+}
+
+
+.s-sub-title{
+    font-weight:   300 !important;
+    font-size: 1.75rem !important;
+    font-family: 'Work Sans',sans-serif !important;
+}
+.s-title{
+    font-weight: 500 !important;
+    font-size: 2.8rem !important;
+    padding: 2rem 0rem !important;
+}
+.email-form-edit {
+    padding: 1rem 1rem !important;
+    width: 27rem !important;
+    font-size: 1.3rem !important;
+    margin-left: 4rem;
+}
+
+.get-app-btn {
+    padding: 0.9rem 4.4rem !important;
+    font-size: 1.5rem !important;
+    font-weight: 600 !important;
+    color: white !important;
+    background: #198754 !important; 
+    transition: 0.3s !important;
+  }
+
+
+  .get-app-btn:hover{
+      background: white !important;
+      color: black !important;
+  }
+
+  .get-app-btn:focus {
+    color: #212529 !important;
+    background-color: #fff !important;
+    border-color: #86b7fe !important;
+    outline: 0 !important;
+    box-shadow: 0 0 0 0.0rem rgba(13, 109, 253, 0) !important;
+}
+
+
+
+
+
+
+
+/* number section */
+
+.edit-number {
+    font-size: 4rem !important;
+    font-weight: 500 !important;
+  }
+  .edit-number-title {
+    font-size: 1.2rem !important;
+  }
+
+
+
+
+
+
+
+  /* about section */
+.about-section{
+    background: #F7F9FF;
+}
+
+  
+.about-title {
+    font-size: 2.5rem !important;
+}
+.about-description {
+    font-size: 1.4rem !important;
+    line-height: 2.6rem !important;
+    font-weight: 300 !important;
+}
+
+
+
+
+
+
+
+/* feature section */
+.feature-heding h1{
+    font-size: 3rem !important;
+}
+.feature-heding p{
+    font-size: 1.6rem !important;
+    font-weight: 300 !important;
+}
+
+
+.feature-items {
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+    overflow: hidden;
+    height: 17rem;
+}
+.feature-img-left{
+    width: 120%;
+    overflow: hidden;
+}
+
+.feature-img-left img{
+    width: 416px;
+    position: relative;
+    left: -8.5rem;
+}
+
+.feature-text-right{
+    padding: 17px;
+    width: 156%;
+}
+
+
+
+
+
+
+
+
+/* portfolio section */
+
+.portfolio-title {
+    font-size: 2.8rem;
+    font-weight: 400;
+}
+
+
+.portfolio-img{
+    transition: .3s;
+    position: relative;
+}
+
+.portfolio-img::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(98, 120, 223, .6);
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s;
+}
+
+.portfolio-img:hover::after{
+    opacity: 1;
+    visibility: visible;
+    cursor: pointer;
+} 
+
+
+
+
+
+
+
+
+
+
+/* pricing-table */
+
+.pricing-table{
+    background-color: #F7F9FF;
+}
+
+.pricing-table-title {
+    font-size: 3.5rem;
+    padding: 1.5rem 0rem;
+}
+
+.pricing-table-subtitle {
+    font-size: 1.5rem;
+    font-weight: 300;
+    padding-bottom: 4rem;
+}
+
+
+.p-card{
+    background: #fff;
+    padding: 3.1rem;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+
+
+.p-subtitle {
+    font-size: 1.5rem;
+}
+
+
+.p-titale {
+    font-size: 2.8rem;
+}
+
+.p-items-list li {
+    padding-bottom: 1.5rem;
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+}
+
+.p-items-list li i {
+    color: #6278DF;
+    width: 2.5rem;
+}
+
+.p-items-list {
+    margin-top: 1.5rem;
+}
+
+
+.p-btn a {
+    padding: 1rem 1.9rem;
+    font-weight: 600;
+    border: none;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+
+
+
+
+
+
+
+
+
+/* testimonial-section */
+
+.t-title {
+    font-size: 1.7rem;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+
+.t-subtitle {
+    font-size: 2.7rem;
+}
+
+span.quote-icon i {
+    font-size: 5rem;
+    width: 80rem;
+    text-align: center;
+    color: #F0F0F0;
+    padding: 1.8rem 0rem;
+}
+
+
+.tesimonial-dettales {
+    margin-bottom: 3rem;
+}
+
+.t-details {
+    width: 71%;
+    margin: auto;
+}
+
+.t-details {
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.team-persion-details {
+    margin: auto;
+    width: 12.7rem;
+}
+
+.team-persion-img img {
+    width: 5.2rem;
+    margin-right: 1rem;
+}
+
+.user-bio {
+    padding-top: 1rem;
+}
+
+.user-bio h4 {
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+/* our-teem */
+
+.our-teem-section{
+    background-color: #F7F9FF;
+}
+.line-dellait{
+    visibility: hidden;
+}
+
+.t-img-customize {
+    width: 8.6rem;
+    margin-top: -4rem;
+}
+
+.card-section{
+    margin-top: 10rem;
+}
+
+.c-sub{
+    font-weight: 400;
+    color: black;
+}
+
+.c-text {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+
+.c-btn {
+    font-weight: 700 !important;
+}
+
+.team-ditteils-btn {
+    padding-bottom: 1.5rem;
+}
+
+.c-btn:hover{
+    background: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+/* contact-section */
+
+.contact-box-customize {
+    padding: 2.5rem;
+    box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+
+.contact-input-email-customize {
+    padding: 1.5rem !important;
+}
+.contact-name-cust {
+    padding-right: 1.5rem;
+}
+
+.contact-input-name-customize {
+    padding: 1.5rem !important;
+}
+
+.contact-input-phone-customize {
+    padding: 1.5rem !important;
+}
+
+.contact-input-textarea-customize {
+    padding: 1.5rem !important;
+}
+
+.contact-form-btn {
+    padding: 1rem 1.9rem !important;
+    background: #6278df !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    transition: .4s !important;
+}
+
+.contact-form-btn:hover{
+    background: white !important;
+    color: #6278df !important;
+    border: 2px solid #6278df !important;
+    box-sizing: border-box !important;
+    box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+
+
+
+
+
+
+
+
+/* get-app-section */
+
+.get-app-title {
+    font-weight: 300;
+    font-size: 1.6rem;
+}
+
+.get-app-sub-titale {
+    font-size: 2.8rem;
+    padding: 1rem 0rem;
+}
+
+.get-btn-app-store {
+    padding: 0.9rem 1.4rem !important;
+    font-weight: 700 !important;
+}
+
+
+.get-btn-google-play {
+    padding: .9rem 1.4rem !important;
+    font-weight: 700 !important;
+}
+
+.get-btn-app-store i {
+    font-style: normal;
+}
+
+
+
+
+
+
+
+
+/* footer section */
+
+.footer-edit {
+    font-size: 1.3rem;
+    padding: 2rem 0;
+}
+
+.footer-section{
+    background: #f7f9ff;
+}
